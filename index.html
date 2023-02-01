@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="">
-
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive Mobile First Portfolio App</title>
@@ -286,10 +285,10 @@
                 <span class="section__subtitle">Most recent work</span>
 
                 <div class="container section__border">
-                    <div class="projects__container">
-                        <div>
+                    <div class="projects__container swiper">
+                        <div class="swipper-wrapper">
                             <!--==================== PROJECT 1 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="/assets/img/quote.png" alt="project image" class="projects__img">
 
                                 <div>
@@ -303,7 +302,7 @@
                             </div>
 
                             <!--==================== PROJECT 2 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="/assets/img/infinite.png" alt="project image" class="projects__img">
 
                                 <div>
@@ -317,7 +316,7 @@
                             </div>
 
                             <!--==================== PROJECT 3 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="/assets/img/background.png" alt="project image" class="projects__img">
 
                                 <div>
@@ -331,7 +330,7 @@
                             </div>
 
                             <!--==================== PROJECT 4 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="/assets/img/pip.png" alt="project image" class="projects__img">
 
                                 <div>
@@ -351,13 +350,74 @@
         
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in Touch</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-wechat-2-line"></i> Talk to me
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">addisonphilips4@gmail.com</span>
+                            </div>
+
+                            <div class="contact__info">
+                                <div class="contact__data">
+                                    <span class="contact__data-title">Whatsapp</span>
+                                    <span class="contact__data-info">+447397178669</span>
+
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            
+                        </h3>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">Addison</h1>
+                <p>Full-Stack Developer</p>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+
+                    <a href="https://www.github.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright Addison INC. All rights reaerved 
+                </span>
+            </div>
         </footer>
 
 
@@ -368,7 +428,6 @@
         <script src=""></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
         
         <!--=============== EMAIL JS ===============-->
         
